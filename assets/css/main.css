@@ -30,12 +30,12 @@ body {
     padding: 30px 50px 50px 50px;
 }
 
-a {
+.post-blog {
     color: #428bca;
     text-decoration: none;
 }
 
-a:hover {
+.post-blog:hover {
     color: #4499EE;
 }
 
@@ -47,15 +47,20 @@ a:hover {
     top: 0;
 }
 
-.nav span {
+.nav a {
     display: inline-block;
+    text-decoration: none;
     padding: 10px;
-    color: #AAA;
+    color: grey;
     margin-left: 10px;
 }
 
+.nav a:hover {
+    color: #4499EE;
+}
+
 .links {
-    padding: 10px;
+    /*padding: 10px;*/
     float: right;
 }
 
